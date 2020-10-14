@@ -10,4 +10,5 @@ log_location       STDOUT
 trusted_certs_dir "c:/chef/trusted_certs"
 validation_key	"c:/chef/silverbyte-hub-validator.pem"
 ssl_verify_cert	:verify_none
+ssl_verify_mode :verify_none
 verify_api_cert	false
